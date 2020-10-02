@@ -1,6 +1,6 @@
 {
-  "name": "simplon/facebook",
-  "description": "Facebook Library",
+  "name": "gimmenetwork/simplon_facebook",
+  "description": "[FORK] Facebook Library",
   "homepage": "https://github.com/fightbulc/simplon_facebook",
   "type": "library",
   "keywords": [
@@ -16,11 +16,23 @@
       "role": "developer"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_request"
+    },{
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_url"
+    },{
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_helper"
+    }
+  ],
   "require": {
     "php": ">=7.1",
-    "simplon/request": "^1.1",
-    "simplon/url": "^0.6",
-    "simplon/helper": "^1.0",
+    "gimmenetwork/simplon_request": "^1.1",
+    "gimmenetwork/simplon_url": "^0.6",
+    "gimmenetwork/simplon_helper": "^1.0",
     "dusank/knapsack": "^10.0"
   },
   "autoload": {
